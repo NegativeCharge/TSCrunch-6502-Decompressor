@@ -50,7 +50,7 @@ SAVE "TSCRNCH", start, end, entry_point
 PRINT "------------------------"
 PRINT " TSCrunch Decompressor  "
 PRINT "------------------------"
-PRINT "CODE size         = ", ~end-start
+PRINT "CODE SIZE         = ", ~end-start
 PRINT "DECOMPRESSOR SIZE = ", entry_point-start, "bytes"
 PRINT "ZERO PAGE SIZE    = ", zp_end-zp_start, "bytes"
 PRINT "------------------------"
